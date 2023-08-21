@@ -1,11 +1,12 @@
 import Image from "next/image";
-import { Footer, Header, Main } from "./container";
+import { Feedback, Footer, Header, Main } from "./container";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Main />
+      <Feedback />
       <Footer />
     </div>
   );
