@@ -7,6 +7,7 @@ import {
   Main,
   Tours,
   Travel,
+  Work,
 } from "./container";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Information />
       <Tours />
       <Travel />
+      <Work />
       <Footer />
     </div>
   );
