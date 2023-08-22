@@ -1,11 +1,11 @@
-.information {
-    background: url("../../assets/images/information/bg.jpeg") no-repeat;
+.tours {
+    background: url("../../assets/images/tours/bg.jpeg") no-repeat;
     width: 100%;
-    height: 765px;
+    height: 910px;
     position: relative;
 }
 
-.information::after {
+.tours::after {
     content: "";
     position: absolute;
     background: #1d87e4;
@@ -13,32 +13,25 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 765px;
+    height: 910px;
     z-index: 1;
 }
 
-.information h3 {
+.tours img {
+    margin-bottom: 30px;
+}
+
+.tours h3 {
     font-size: 30px;
     color: #ffffff;
 }
 
-.information .img__border {
-    background-color: #ffffff;
-    border-radius: 50%;
-    height: 101px;
-    width: 101px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.information h5 {
+.tours h5 {
     color: #FFFFFF;
     font-size: 22px;
 }
 
-.information p {
+.tours p {
     font-size: 17px;
     font-weight: 300;
     color: #FFFFFF;
@@ -46,15 +39,16 @@
 }
 
 @media (max-width: 768px) {
-    .information {
-        background: url("../../assets/images/information/bg.jpeg") no-repeat;
+    .tours {
+        padding-top: 100px;
+        background: url("../../assets/images/tours/bg.jpeg") no-repeat;
         background-size: cover;
         width: 100%;
         height: 100%;
         position: relative;
     }
 
-    .information::after {
+    .tours::after {
         content: "";
         position: absolute;
         background: #1d87e4;
