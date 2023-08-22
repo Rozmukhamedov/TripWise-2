@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
       <Main />
       <Feedback />
-      <Information />
+      {/* <Information /> */}
       <Tours />
       <Travel />
       <Work />
