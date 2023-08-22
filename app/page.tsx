@@ -6,6 +6,7 @@ import {
   Information,
   Main,
   Tours,
+  Travel,
 } from "./container";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Feedback />
       <Information />
       <Tours />
+      <Travel />
       <Footer />
     </div>
   );
